@@ -6,3 +6,4 @@ let tl = gsap.timeline({defaults: {duration: 2.5}})
 
     tl.from(".greetings", {opacity: 0})
     tl.to(".greetings", {display: "none"}, "-=2")
+    // tl.from(".sequences")
