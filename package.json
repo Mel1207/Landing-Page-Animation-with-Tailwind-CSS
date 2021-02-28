@@ -1,0 +1,23 @@
+{
+  "name": "Project-LPAnimwithTailWind",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build-css": "tailwindcss build src/styles.css -o public/styles.css"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Mel1207/Landing-Page-Animation-with-Tailwind-CSS.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Mel1207/Landing-Page-Animation-with-Tailwind-CSS/issues"
+  },
+  "homepage": "https://github.com/Mel1207/Landing-Page-Animation-with-Tailwind-CSS#readme",
+  "dependencies": {
+    "tailwindcss": "^2.0.3"
+  }
+}
