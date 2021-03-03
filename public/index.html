@@ -9,21 +9,25 @@
     <title>Landing Page Animation with Tailwind</title>
 </head>
 <body>
-    <div class="container">
-        <h1 class="absolute greetings text-8xl font-bold">Hello there</h1>
-        <h2 class="absolute text-4xl font-bold seq-1 text-4xl">Welcome and explore possibilities</h2>
+    
+    <h1 class="absolute greetings text-8xl font-bold">Hello there</h1>
+    <h2 class="absolute text-4xl font-bold seq-1 text-4xl">Welcome and explore possibilities</h2>
 
-        <div class="flex item-center justify-center space-between">
-            <div class="text-seq">
-                <h1>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla totam praesentium eum blanditiis veritatis eaque quo accusantium aperiam deserunt minima!</h1>
-                <button class="bg-gray-400 p-4 rounded-md">sample</button>
-            </div>
-
-            <div class="background-seq">
-                <img src="/public/img/bg-seq1.jpg" alt="">
+    <div class="flex space-around">
+       <div class="half-container flex">
+            <div class="text-seq self-center">
+                <div class="container">
+                    <h1 class="seq-2 text-4xl mb-3">We find best for your bussiness</h1>
+                    <p class="seq-2 mb-5">Lorem ipsum dolor sit amet consectetur adipisicing elit. Nulla totam praesentium eum blanditiis veritatis eaque quo accusantium deserunt minima! Lorem, ipsum dolor sit amet consectetur  adipisicing elit. <br> Ipsam, enim Lorem, ipsum.</p>
+                    <button class="seq-2 bg-green-300 px-8 py-2 rounded-md text-white">Start Journey</button>
+                </div>
             </div>
         </div>
+        <div class="background-seq">
+            <img src="/public/img/bg-seq1.jpg" alt="">
+        </div>
     </div>
+    
 
     
 
